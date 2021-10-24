@@ -1,0 +1,31 @@
+{
+  "name": "drupal9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass — watch scss -o css",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "gulp": "^4.0.2",
+    "gulp-bower": "0.0.15",
+    "gulp-composer": "^0.4.5",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "node-sass-install": "^1.0.2",
+    "npm-watch": "^0.7.0",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "@pattern-lab/edition-twig": "^5.13.1"
+  },
+  "keywords": [],
+  "description": ""
+}
