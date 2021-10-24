@@ -29,7 +29,7 @@ global:
 #     - first_theme/clearfix
 #     - first_theme/visually-hidden
 
-#tabs:
-#  css:
-#    component:
-#      dist/css/tabs.css: {}
+tabs:
+  css:
+    component:
+      dist/css/tabs.css: {}
